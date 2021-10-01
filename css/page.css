@@ -1,0 +1,154 @@
+/**
+RESET CSS START
+ */
+
+li.breadcrumb-item a {
+    color: #414141;
+    text-decoration: none;
+}
+
+li.page-item a.page-link, li.page-item:active a.page-link {
+    color: #414141;
+    text-decoration: none;
+    border: 1px solid #707170;
+}
+
+#paging-section .page-item.active .page-link {
+    border: 1px solid #707170;
+}
+
+li.page-item a.page-link:hover {
+    color: #FFFFFF;
+    background: #414141;
+    text-decoration: none;
+}
+
+li.page-item {
+    margin: 5px;
+}
+
+.category-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.category-list li {
+    border-bottom: 1px solid #707070;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+
+.category-list li:first-of-type {
+    border-top: 1px solid #707070;
+}
+
+
+/*dt, dd {
+    border-bottom: 0.5px solid #414141;
+    border-left: 0.5px solid #414141;
+    border-right: 0.5px solid #414141;
+}
+
+dd.category-list-item a {
+    display: block;
+}
+
+
+dd.category-list-item {
+    padding-left: 15px;
+}*/
+
+
+/**
+RESET CSS END
+ */
+.header-page {
+    background: #4281B7;
+    height: 233px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    color: white;
+}
+
+.header-title{
+    align-self: center;
+}
+
+#breadcrumb-nav{
+    background: #FFFFFF;
+}
+
+#breadcrumb-nav ul,nav {
+    background: inherit;
+}
+
+#paging-section {
+    padding: 0px 50px 50px 50px;
+    justify-content: center;
+}
+
+/*active link*/
+#paging-section .page-item.active, #paging-section .page-item.active .page-link {
+    background: #707170;
+    color: white;
+}
+
+#content-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.highlight-form-require{
+    color: #FF7600;
+}
+
+.wrapper-form-contact{
+    padding: 15px;
+}
+
+.policy-description {
+    display: block;
+    text-align: left;
+    padding: 20px 20px 20px 0px;
+}
+
+.policy-title {
+    background: #A3D3FC;
+    display: block;
+    padding: 10px;
+}
+
+.wrapper-policy-title{
+    width: 100%;
+}
+
+.highlight-policy-term{
+    color: #3CC3C3;
+}
+
+@media screen and (min-width: 600px){
+    #content-page {
+        padding: 60px 60px 60px 60px;
+    }
+}
+
+@media screen and (min-width: 576px){
+
+    #content-page {
+        padding: 20px;
+    }
+
+    .category-list {
+        padding: 0px 0px 0px 30px;
+    }
+
+    .category-list li{
+        width: 100%;
+    }
+}

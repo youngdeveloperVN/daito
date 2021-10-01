@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="bootstrap" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="jQuery" />
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/vendor/bootstrap" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/vendor/bootstrap" />
+      <root url="file://$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <root url="file://$PROJECT_DIR$/vendor/bootstrap/js/jquery-3.5.1.slim.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

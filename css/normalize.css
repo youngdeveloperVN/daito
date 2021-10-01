@@ -1,0 +1,22 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: sans-serif;
+  box-sizing: content-box;
+}
