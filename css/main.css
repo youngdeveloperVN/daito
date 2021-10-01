@@ -81,9 +81,12 @@ a.btn-logo-vendor .img{
   border: 1px solid #4281B7;
   opacity: 1;
   display: block;
-  margin: 20px auto;
+  margin: 0px auto;
   text-align: center;
   width: 210px;
+  font: normal normal bold 16px/27px YuGothic;
+  letter-spacing: 2.08px;
+  color: #4281B7;
 }
 
 .button-link:hover{
